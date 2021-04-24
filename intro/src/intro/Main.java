@@ -73,6 +73,7 @@ public class Main {
 		sehir1 = sehir2;
 		sehir2 = "İzmit";
 		System.out.println(sehir1);
+		System.out.println(sehir1);
 	}
 
 }
