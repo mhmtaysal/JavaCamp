@@ -79,8 +79,13 @@ public class Main {
 					System.out.println(teacher.name);
 				}
 				
+				ProgramsManager programsManager = new ProgramsManager();
+				System.out.println();
+				programsManager.addCourse(program1);
+				programsManager.addCourse(program2);
+				programsManager.addCourse(program3);
 				
-				
+					
 				
 				
 				
