@@ -84,6 +84,13 @@ public class Main {
 				programsManager.addCourse(program1);
 				programsManager.addCourse(program2);
 				programsManager.addCourse(program3);
+				System.out.println();
+				programsManager.previousLesson(program1);
+				programsManager.finishAndNextLesson(program1);
+			
+			
+				
+				
 				
 					
 				
