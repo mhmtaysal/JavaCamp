@@ -2,6 +2,12 @@
 public class Programs {
 	
 	
+	int id;
+	String name;
+	String teacher;
+	String details;
+	String percent;
+	
 	public Programs() {
 		System.out.println("Ben Çalýþtým");
 		
@@ -21,13 +27,7 @@ public class Programs {
 
 
 	
-	
-	
-	int id;
-	String name;
-	String teacher;
-	String details;
-	String percent;
+
 
 
 }

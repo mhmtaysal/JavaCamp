@@ -12,7 +12,7 @@ public class Product {
 	private double discount;
 	
 	
-	public Product () {};
+
 	
 	
 	public Product(int id, String name, double unitPrice, String detail, double discount,double unitPriceAfterDiscount) {
@@ -22,9 +22,13 @@ public class Product {
 		this.unitPrice = unitPrice;
 		this.detail = detail;
 		this.discount = discount;
+		}
 	
 		
-	}
+
+	
+	public Product () {};
+	
 
 	public int getId() {
 		return id;
