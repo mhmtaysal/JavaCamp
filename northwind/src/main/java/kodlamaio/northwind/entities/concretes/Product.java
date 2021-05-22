@@ -7,12 +7,16 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import ch.qos.logback.core.joran.spi.NoAutoStart;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
 @Entity
 @Table(name="products")
-
+@AllArgsConstructor
+@NoArgsConstructor
 public class Product {
 
 	
